@@ -1,0 +1,17 @@
+body {
+	padding: 2rem;
+}
+
+button,
+input {
+	display: block;
+	margin: 1rem 0;
+	padding: 0.5rem;
+}
+
+.hover-area {
+	margin-top: 2rem;
+	padding: 1rem;
+	background-color: coral;
+	border: 1px solid black;
+}
