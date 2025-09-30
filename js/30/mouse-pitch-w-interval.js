@@ -1,4 +1,4 @@
-// Make sure Tone.js is imported/available as `Tone`
+// För att detta ska funka behöver ni ladda in Tone.js i en scripttagg (se index.html)
 
 const text = document.querySelector("#div-instrument");
 let audioStarted = false;
@@ -13,7 +13,7 @@ button.addEventListener("click", async () => {
 	}
 });
 
-// Preload all audio into a single buffers collection
+// Ladda alla ljudfiler
 const buffers = new Tone.ToneAudioBuffers(
 	{
 		"audio-file-1": "../audio/S-F%233_1.mp3",

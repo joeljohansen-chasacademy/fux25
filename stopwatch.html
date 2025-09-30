@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Arrow functions</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>Stoppur</h1>
+		<div class="card">
+			<div class="stopwatch-display">
+				<span id="swMinutes">00</span>:<span id="swSeconds">00</span>.<span
+					id="swMilliseconds"
+					>000</span
+				>
+			</div>
+			<div class="row">
+				<button id="swStart">Start</button>
+				<button id="swStop" disabled>Stop</button>
+				<button id="swReset" disabled>Nollställ</button>
+			</div>
+		</div>
+
+		<!-- SCRIPTS -->
+		<!-- Ljudbiblioteket tone.js, användbart för att spela ljud i webbläsaren -->
+		<script src="https://cdn.jsdelivr.net/npm/tone@15.1.22/build/Tone.min.js"></script>
+
+		<!-- Kod från 30e september-->
+		<script src="js/30/stopwatch.js"></script>
+	</body>
+</html>
